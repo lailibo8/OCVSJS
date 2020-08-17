@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j4L-no-eel">
+                                <rect key="frame" x="97" y="412" width="211" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="lKx-CT-OIb"/>
+                                </constraints>
+                                <state key="normal" title="获取JS的信息,原生弹窗"/>
+                                <connections>
+                                    <action selector="getUserinfo" destination="BYZ-38-t0r" eventType="touchUpInside" id="L6E-fO-R67"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HCw-vy-EED">
+                                <rect key="frame" x="130" y="462" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="ONn-yV-5Qe"/>
+                                </constraints>
+                                <state key="normal" title="JS互传参数"/>
+                                <connections>
+                                    <action selector="showInfo" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hre-EA-KgE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ckt-ko-Hsv">
+                                <rect key="frame" x="141" y="659" width="62" height="30"/>
+                                <state key="normal" title="界面跳转"/>
+                                <connections>
+                                    <action selector="pushToNewWebSite" destination="BYZ-38-t0r" eventType="touchUpInside" id="rwi-VV-0Fw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mra-7f-GDY">
+                                <rect key="frame" x="141" y="516" width="62" height="30"/>
+                                <state key="normal" title="插入图片"/>
+                                <connections>
+                                    <action selector="insertImgToWebPage" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jkw-Jc-h9S"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I9P-5t-ef9">
+                                <rect key="frame" x="141" y="578" width="62" height="30"/>
+                                <state key="normal" title="刷新界面"/>
+                                <connections>
+                                    <action selector="reloadWebPage" destination="BYZ-38-t0r" eventType="touchUpInside" id="2OH-b0-hCn"/>
+                                </connections>
+                            </button>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vka-AO-Mrw">
+                                <rect key="frame" x="14" y="52" width="380" height="355"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OC调用JS的方法:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9cn-Vb-U4y">
+                                <rect key="frame" x="259" y="569" width="135" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="I9P-5t-ef9" firstAttribute="leading" secondItem="Mra-7f-GDY" secondAttribute="leading" id="1Cy-St-SE7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ckt-ko-Hsv" secondAttribute="bottom" constant="173" id="46r-3Z-eQe"/>
+                            <constraint firstItem="Mra-7f-GDY" firstAttribute="top" secondItem="HCw-vy-EED" secondAttribute="bottom" constant="24" id="6q4-7E-YgK"/>
+                            <constraint firstItem="j4L-no-eel" firstAttribute="top" secondItem="vka-AO-Mrw" secondAttribute="bottom" constant="5" id="AbD-Nd-p8j"/>
+                            <constraint firstItem="vka-AO-Mrw" firstAttribute="trailing" secondItem="9cn-Vb-U4y" secondAttribute="trailing" id="FNk-xN-TZB"/>
+                            <constraint firstItem="j4L-no-eel" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="77" id="Fap-rt-CQw"/>
+                            <constraint firstItem="HCw-vy-EED" firstAttribute="top" secondItem="j4L-no-eel" secondAttribute="bottom" constant="8" id="HWs-hT-vZH"/>
+                            <constraint firstItem="Ckt-ko-Hsv" firstAttribute="top" secondItem="I9P-5t-ef9" secondAttribute="bottom" constant="51" id="boh-5z-LDT"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9cn-Vb-U4y" secondAttribute="bottom" constant="272" id="cbY-ou-hUr"/>
+                            <constraint firstItem="Ckt-ko-Hsv" firstAttribute="leading" secondItem="I9P-5t-ef9" secondAttribute="leading" id="emB-JJ-7ts"/>
+                            <constraint firstItem="vka-AO-Mrw" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="fHd-Re-zMx"/>
+                            <constraint firstItem="HCw-vy-EED" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="130" id="nG8-1R-C36"/>
+                            <constraint firstItem="I9P-5t-ef9" firstAttribute="top" secondItem="Mra-7f-GDY" secondAttribute="bottom" constant="32" id="oUr-n5-uXx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="j4L-no-eel" secondAttribute="trailing" constant="86" id="r3Y-Ve-G4J"/>
+                            <constraint firstItem="vka-AO-Mrw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="ve5-Rr-vXF"/>
+                            <constraint firstItem="vka-AO-Mrw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-6" id="yhl-nN-1IN"/>
+                            <constraint firstItem="9cn-Vb-U4y" firstAttribute="leading" secondItem="I9P-5t-ef9" secondAttribute="trailing" constant="56" id="zud-3B-Ip1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="vka-AO-Mrw" id="opw-cr-WPM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="184.05797101449278" y="204.91071428571428"/>
+        </scene>
+    </scenes>
+</document>

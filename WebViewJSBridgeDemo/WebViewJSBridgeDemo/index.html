@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <title>ios 测试DEMO</title>
+
+    <style>
+        body{
+            background-color:paleturquoise;
+        }
+    
+        .btn { width: 135px; padding: 5px 10px; margin: 0 auto 20px; background-color: #127612; color: #fff; text-align: center; border-radius: 6px }
+
+        button{
+            border:0;
+            width: 150px;
+            height: 35px;
+            background-color: orangered;
+            color: white;
+            font-size: 16px;
+            border-radius: 6px;
+        }
+    </style>
+
+</head><body style="overflow: auto">
+
+<!--    利用Button的设置-->
+    <button id="btn">访问OC相册</button>
+    <!--    div的设置-->
+
+    <div id="share" class="btn" onclick="showBackBtnIcon()">访问OC相册</div>
+
+    <div id="share" class="btn" onclick="showAlertTest()">访问OC弹个窗</div>
+
+    
+    
+    <script>
+        var bridgeJSOC
+
+        window.onerror = function(err) {
+            alert('window.onerror: ' + err)
+        }
+
+        function setupWebViewJavascriptBridge(callback) {
+            if (window.WebViewJavascriptBridge) { return callback(WebViewJavascriptBridge); }
+            if (window.WVJBCallbacks) { return window.WVJBCallbacks.push(callback); }
+            window.WVJBCallbacks = [callback];
+            var WVJBIframe = document.createElement('iframe');
+            WVJBIframe.style.display = 'none';
+            WVJBIframe.src = 'https://__bridge_loaded__';
+            document.documentElement.appendChild(WVJBIframe);
+            setTimeout(function() { document.documentElement.removeChild(WVJBIframe) }, 0)
+        }
+
+        setupWebViewJavascriptBridge(function(bridge) {
+            bridgeJSOC = bridge
+            
+            
+            //*****************iosApi
+
+            
+            document.getElementById('btn').onclick = function () {
+                bridge.callHandler('openCamera', {'count':'10张'}, function responseCallback(responseData) {
+                    console.log("OC中返回的参数:", responseData)
+                });
+            };
+            
+            
+               
+           function showAlertTest() {
+               bridgeJSOC.callHandler('showAlertTest', '点击的showBackBtnIcon', function responseCallback(responseData) {
+                   alert(responseData)
+               })
+           }
+           
+           function showBackBtnIcon() {
+               bridgeJSOC.callHandler('showBackBtnIcon', '点击的showBackBtnIcon', function responseCallback(responseData) {
+                   alert(responseData)
+               })
+           }
+
+           
+           
+           
+
+            //***********************获取JS的信息
+            bridge.registerHandler('getJianshuInfo', function(data, responseCallback) {
+                
+
+                var responseData = { 'JsonMessage' :  '这么棒你已经获取了，行走在北方' }
+                responseCallback(responseData)
+                
+                alert(data.userId)
+
+                
+            })
+            
+            bridge.registerHandler('alertWindow', function(data, responseCallback) {
+                
+                alert(data)
+
+                var responseData = { 'JsonMessage' :  '给你点什么信息呢，就这样吧，算了吧' }
+                responseCallback(responseData)
+                
+            })
+            
+            //插入图片
+            bridge.registerHandler('insertImgToWebPage', function(data, responseCallback) {
+                var img = document.createElement('img');
+                img.src = data.url;
+                img.width = 400;
+                document.body.appendChild(img);
+
+            })
+            
+            //一个新的网页
+            bridge.registerHandler('pushToNewWebSite', function(data, responseCallback) {
+                window.location.href = data.url;
+            });
+            
+                                     
+        })
+
+
+       
+ 
+    </script>
+</body></html>
