@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF22E10624EA8B60003BF3DA /* WKMessageHanderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF22E10524EA8B60003BF3DA /* WKMessageHanderViewController.m */; };
+		AFD14AF124EB761600359516 /* WKWebView-WKScriptMessageHandler.html in Resources */ = {isa = PBXBuildFile; fileRef = AFD14AF024EB761600359516 /* WKWebView-WKScriptMessageHandler.html */; };
+		AFD14AF924EBD3BF00359516 /* WKWebViewURLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD14AF824EBD3BF00359516 /* WKWebViewURLViewController.m */; };
+		AFD14AFB24EBD47F00359516 /* WKWebView-URL.html in Resources */ = {isa = PBXBuildFile; fileRef = AFD14AFA24EBD47F00359516 /* WKWebView-URL.html */; };
+		AFD14AFD24EBD96000359516 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD14AFC24EBD96000359516 /* AVFoundation.framework */; };
+		AFD14AFF24EBD96600359516 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD14AFE24EBD96600359516 /* WebKit.framework */; };
 		C3A2F2121D4F0EAE003D244B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A2F2111D4F0EAE003D244B /* main.m */; };
 		C3A2F2151D4F0EAE003D244B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A2F2141D4F0EAE003D244B /* AppDelegate.m */; };
 		C3A2F2181D4F0EAE003D244B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A2F2171D4F0EAE003D244B /* ViewController.m */; };
@@ -39,7 +45,15 @@
 /* Begin PBXFileReference section */
 		0C3B5945407428F2437FE2C3 /* Pods-WebViewJSBridgeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebViewJSBridgeDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebViewJSBridgeDemo/Pods-WebViewJSBridgeDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		729123B94DA57E107723DAEE /* Pods-WebViewJSBridgeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebViewJSBridgeDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebViewJSBridgeDemo/Pods-WebViewJSBridgeDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AF22E10424EA8B60003BF3DA /* WKMessageHanderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKMessageHanderViewController.h; sourceTree = "<group>"; };
+		AF22E10524EA8B60003BF3DA /* WKMessageHanderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKMessageHanderViewController.m; sourceTree = "<group>"; };
 		AF2E420A24E548490029BFD5 /* WebViewJSBridgeDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WebViewJSBridgeDemo.entitlements; sourceTree = "<group>"; };
+		AFD14AF024EB761600359516 /* WKWebView-WKScriptMessageHandler.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "WKWebView-WKScriptMessageHandler.html"; sourceTree = "<group>"; };
+		AFD14AF724EBD3BF00359516 /* WKWebViewURLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebViewURLViewController.h; sourceTree = "<group>"; };
+		AFD14AF824EBD3BF00359516 /* WKWebViewURLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewURLViewController.m; sourceTree = "<group>"; };
+		AFD14AFA24EBD47F00359516 /* WKWebView-URL.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "WKWebView-URL.html"; sourceTree = "<group>"; };
+		AFD14AFC24EBD96000359516 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AFD14AFE24EBD96600359516 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		C3A2F20D1D4F0EAE003D244B /* WebViewJSBridgeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewJSBridgeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3A2F2111D4F0EAE003D244B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C3A2F2131D4F0EAE003D244B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,7 +79,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFD14AFD24EBD96000359516 /* AVFoundation.framework in Frameworks */,
 				D4C41EBC9668A8523F93016E /* libPods-WebViewJSBridgeDemo.a in Frameworks */,
+				AFD14AFF24EBD96600359516 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +105,8 @@
 		1BA322169DE469BE9F1584B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AFD14AFE24EBD96600359516 /* WebKit.framework */,
+				AFD14AFC24EBD96000359516 /* AVFoundation.framework */,
 				EE06247E67D76F4DA4CDAD84 /* libPods-WebViewJSBridgeDemo.a */,
 			);
 			name = Frameworks;
@@ -133,12 +151,18 @@
 				C3A2F2141D4F0EAE003D244B /* AppDelegate.m */,
 				C3A2F2161D4F0EAE003D244B /* ViewController.h */,
 				C3A2F2171D4F0EAE003D244B /* ViewController.m */,
+				AF22E10424EA8B60003BF3DA /* WKMessageHanderViewController.h */,
+				AF22E10524EA8B60003BF3DA /* WKMessageHanderViewController.m */,
+				AFD14AF724EBD3BF00359516 /* WKWebViewURLViewController.h */,
+				AFD14AF824EBD3BF00359516 /* WKWebViewURLViewController.m */,
 				C3A2F2191D4F0EAE003D244B /* Main.storyboard */,
 				C3A2F21C1D4F0EAE003D244B /* Assets.xcassets */,
 				C3A2F21E1D4F0EAE003D244B /* LaunchScreen.storyboard */,
 				C3A2F2211D4F0EAE003D244B /* Info.plist */,
 				C3A2F2101D4F0EAE003D244B /* Supporting Files */,
 				C3A2F2431D4F10E9003D244B /* index.html */,
+				AFD14AF024EB761600359516 /* WKWebView-WKScriptMessageHandler.html */,
+				AFD14AFA24EBD47F00359516 /* WKWebView-URL.html */,
 			);
 			path = WebViewJSBridgeDemo;
 			sourceTree = "<group>";
@@ -277,8 +301,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3A2F2201D4F0EAE003D244B /* LaunchScreen.storyboard in Resources */,
+				AFD14AF124EB761600359516 /* WKWebView-WKScriptMessageHandler.html in Resources */,
 				C3A2F2441D4F10E9003D244B /* index.html in Resources */,
 				C3A2F21D1D4F0EAE003D244B /* Assets.xcassets in Resources */,
+				AFD14AFB24EBD47F00359516 /* WKWebView-URL.html in Resources */,
 				C3A2F21B1D4F0EAE003D244B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,7 +353,9 @@
 			files = (
 				C3A2F2181D4F0EAE003D244B /* ViewController.m in Sources */,
 				C3A2F2151D4F0EAE003D244B /* AppDelegate.m in Sources */,
+				AF22E10624EA8B60003BF3DA /* WKMessageHanderViewController.m in Sources */,
 				C3A2F2121D4F0EAE003D244B /* main.m in Sources */,
+				AFD14AF924EBD3BF00359516 /* WKWebViewURLViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

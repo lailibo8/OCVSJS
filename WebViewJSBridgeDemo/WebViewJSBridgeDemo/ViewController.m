@@ -2,6 +2,7 @@
 #import "ViewController.h"
 #import <WebViewJavascriptBridge.h>
 #import <WebKit/WebKit.h>
+#import "WKMessageHanderViewController.h"
 @interface ViewController ()<WKNavigationDelegate,WKUIDelegate>
 @property (nonatomic, strong) WebViewJavascriptBridge *bridge;
 
@@ -44,11 +45,14 @@
     }];
     
     
-    
+    /* JS调用OC的API:弹窗互相传递参数
+           data JS传递给OC的参数值
+           responseCallback 传递给JS的参数值
+       */
     [self.bridge registerHandler:@"showBackBtnIcon" handler:^(id data, WVJBResponseCallback responseCallback) {
         
         
-        UIAlertController *vc = [UIAlertController alertControllerWithTitle:[NSString stringWithFormat:@"%@",data] message:@"不谈不谈,就不谈!!" preferredStyle:UIAlertControllerStyleActionSheet];
+        UIAlertController *vc = [UIAlertController alertControllerWithTitle:[NSString stringWithFormat:@"%@",data] message:@"世界真好" preferredStyle:UIAlertControllerStyleActionSheet];
         UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil];
         UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"好的" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
             responseCallback(@"传给JS参数");
@@ -60,14 +64,13 @@
     }];
     
     
-     /* JS调用OC的API:访问底部弹窗 */
     [self.bridge registerHandler:@"showAlertTest" handler:^(id data, WVJBResponseCallback responseCallback) {
         
         
-        UIAlertController *vc = [UIAlertController alertControllerWithTitle:[NSString stringWithFormat:@"%@",data] message:@"不谈不谈,就不谈!!" preferredStyle:UIAlertControllerStyleActionSheet];
+        UIAlertController *vc = [UIAlertController alertControllerWithTitle:[NSString stringWithFormat:@"%@",data] message:@"谢谢简书" preferredStyle:UIAlertControllerStyleActionSheet];
         UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil];
         UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"好的" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-            responseCallback(@"传给JS参数");
+            responseCallback(@"你看看，我给传给JS参数，够不够，不够我再给你多传");
 
         }];
         [vc addAction:cancelAction];
@@ -111,7 +114,12 @@
 
 /* 刷新界面 */
 - (IBAction)reloadWebPage {
-    [self.webView reload];
+//    [self.webView reload];
+    
+//    WKMessageHanderViewController *WKVC = [[WKMessageHanderViewController alloc] ini];
+//    WKVC.modalPresentationStyle = UIModalPresentationFullScreen;
+//    [self presentViewController:WKVC animated:YES completion:nil];
+    
 }
 
 /* 插入新图片 */

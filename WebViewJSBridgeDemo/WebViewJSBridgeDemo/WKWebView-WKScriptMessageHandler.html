@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <meta http-equiv = "Content-Type" content = "text/html; charset=utf8">
+        <title>WKWebView-WKScriptMessageHandler</title>
+        <script language = "javascript">
+            
+            //! 加载URL
+            function loadURL(url) {
+                window.location.href = url;
+            }
+        
+            //! JS调用OC入口
+            function jsToOc(action, params) {
+                var url = "jsToOc://" + action + "?" + params;
+                loadURL(url);
+            }
+            
+            //! JS登录成功后loadURL并传参token
+            function loginSucceed(token) {
+                var action = "loginSucceed";
+                window.webkit.messageHandlers.jsToOc.postMessage(action, token);
+            }
+            
+            //! JS调用OC的登录功能
+            function login() {
+                var token = "js_tokenString";
+                loginSucceed(token);
+<!--                alert('hhhhhh')-->
+            }
+            
+            //! OC调用JS入口
+            function ocToJsHaha(action, params) {
+                return document.getElementById("returnValue").innerHTML = action + '*****' + params;
+            }
+
+            function shareClick(){
+            	window.webkit.messageHandlers.Share.postMessage({title:'测试分享的标题',content:'测试的分享内容',url:'https://www.jianshu.com/u/82217813c143'})
+            }
+
+            //分享回调结果显示
+            function shareResult(channel_id,share_channel,share_url) {
+                var content = channel_id+","+share_channel+","+share_url;
+                alert(content);
+                document.getElementById("returnValue").value = content;
+            }
+            
+            //JS执行window.webkit.messageHandlers.Camera.postMessage(<messageBody>)
+            function cameraClick() {
+                window.webkit.messageHandlers.Camera.postMessage(null);
+            }
+            
+            //调用相册回调结果显示
+            function cameraResult(result) {
+                alert(result);
+                document.getElementById("returnValue").value = result;
+            }
+
+
+            
+        </script>
+    </head>
+    
+    <body>
+        <h3>功能按钮</h3>
+        <button onclick = "login()" style = "font-size: 18px;">登录</button>
+        
+        <h3>回调数据</h3>
+        <textarea id ="returnValue" type="value" rows="5" cols="40">
+            
+        </textarea>
+<!--        <div id = "returnValue" style = "font-size: 18px; border: 1px dotted; height: 50px;"> </div>-->
+        <h3>分享很照片</h3>
+        <input type="button" value="分享" onclick="shareClick()" />
+        <input type="button" value="相机" onclick="cameraClick()" />
+    </body>
+    
+</html>
+

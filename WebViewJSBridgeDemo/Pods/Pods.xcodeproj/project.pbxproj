@@ -7,20 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E7ABFCD528DDEFABE9EA395163F4928 /* WebViewJavascriptBridgeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = BAAA80C7332965B5D4DEAD8340DEBDF5 /* WebViewJavascriptBridgeBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		190277EC94224ABA898F7D1F691788C7 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = AD944DD6177B1C3BA4425C419610CD31 /* WebViewJavascriptBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		30FFC6DDCE05F76147281E07CD85379A /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = C99D16DD1979DF8C6A2D1E9326452336 /* WKWebViewJavascriptBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3A34B0A0DD4F41DF76CFE2ACA18ACCA8 /* WebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 850D49E8E4C431E0FE7865C718418B4C /* WebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		41FC21FB851BBAA3861F225E8E011A77 /* WebViewJavascriptBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D881D5EA8C662AEE1DB878F4A68F9F /* WebViewJavascriptBridge-dummy.m */; };
-		4B197DA53EC5BEB3588399384E81B0AF /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB88B3EDE0B9059A950761B9CD9EE46 /* WebViewJavascriptBridgeBase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		83C45EC2F081BE77807E743B7C3DDB77 /* Pods-WebViewJSBridgeDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 170A4A7FBCF3896BFA8A3BA2A0E2C44F /* Pods-WebViewJSBridgeDemo-dummy.m */; };
-		886183C5FEB753D5D180FDC173E2B77A /* WKWebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C3F01398DB7AFBF05DEF068DF763BA /* WKWebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DE309E2A1C67EB303CC1FAA709A58E23 /* WebViewJavascriptBridge_JS.h in Headers */ = {isa = PBXBuildFile; fileRef = F57D69DF19569D0AAE6848F0CE8B9A3A /* WebViewJavascriptBridge_JS.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E5C1C1FA174DE7A0E66867C40937C46B /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 633D8C6BF693242306C5F264E812F3D2 /* WebViewJavascriptBridge_JS.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0A602B0DEE8E8CAB53C00863B68EEEE2 /* Pods-WebViewJSBridgeDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 170A4A7FBCF3896BFA8A3BA2A0E2C44F /* Pods-WebViewJSBridgeDemo-dummy.m */; };
+		0E7ABFCD528DDEFABE9EA395163F4928 /* WebViewJavascriptBridgeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 435D5DACC86CA7922731FA28AA1E17C6 /* WebViewJavascriptBridgeBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		190277EC94224ABA898F7D1F691788C7 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 529D8730B3AF98CB7FAFB9C04CA94DAB /* WebViewJavascriptBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		30FFC6DDCE05F76147281E07CD85379A /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D2A1C4CF4AB8F2739E6D414A34549D /* WKWebViewJavascriptBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3A34B0A0DD4F41DF76CFE2ACA18ACCA8 /* WebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A6F380403BAEDDB67D06DB33AB99D8 /* WebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		41FC21FB851BBAA3861F225E8E011A77 /* WebViewJavascriptBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 498C0AD8216BC6651A3F5D5C589839E2 /* WebViewJavascriptBridge-dummy.m */; };
+		4B197DA53EC5BEB3588399384E81B0AF /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FC021DE2A105C3E6EE58D232B4E14299 /* WebViewJavascriptBridgeBase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		604A41731C7B8EE313A0EC96109BDF27 /* JXTAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 191745D0C7F646257981B26AABDC619F /* JXTAlertView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		702BED59904818A968FF11E8F4D9A5CA /* JXTAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = C4FB8A87DFFE0E39EAE47DD41F95116B /* JXTAlertController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81A5F4353C1BFECEC03A7CF612EFE35E /* JXTAlertManagerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 967A97BA347493C5F88E2C8344149F9F /* JXTAlertManagerHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		87D77737E4ECDE79A984F589AE4223F0 /* JXTAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D29BF8674A7DCEF7C0A81C2208206D /* JXTAlertView.m */; };
+		886183C5FEB753D5D180FDC173E2B77A /* WKWebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = B48B5C99DD95875D94F8EE456564406C /* WKWebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE93958B4F280E47FF1EBC9E9CF31B50 /* JXTAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = E478B51BDFA2C1F4B4A85EE7A735B762 /* JXTAlertController.m */; };
+		DE309E2A1C67EB303CC1FAA709A58E23 /* WebViewJavascriptBridge_JS.h in Headers */ = {isa = PBXBuildFile; fileRef = 019D6F4C2FF1EFE33D642EF862FF2697 /* WebViewJavascriptBridge_JS.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E53FEEA00FA820EEED70E21155F59452 /* JXTAlertManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7F9F079F7B8E0872B22A25DB8D0217 /* JXTAlertManager-dummy.m */; };
+		E5C1C1FA174DE7A0E66867C40937C46B /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B43FC950BB66873B57DFDC8154A5EB /* WebViewJavascriptBridge_JS.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6CB20B9DE7FB5E6634A7BED504232737 /* PBXContainerItemProxy */ = {
+		4F767FD233C46E4853E1F08818BB0222 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44073827E54313A928334DB3B5828AEE;
+			remoteInfo = JXTAlertManager;
+		};
+		733A22F02699E2083BCEE87A1FC95232 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -30,30 +43,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		019D6F4C2FF1EFE33D642EF862FF2697 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge_JS.h; path = WebViewJavascriptBridge/WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		02B43FC950BB66873B57DFDC8154A5EB /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge_JS.m; path = WebViewJavascriptBridge/WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
 		063A450BD0BF44CDF9E811AD2009F5BD /* Pods-WebViewJSBridgeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WebViewJSBridgeDemo.release.xcconfig"; sourceTree = "<group>"; };
 		170A4A7FBCF3896BFA8A3BA2A0E2C44F /* Pods-WebViewJSBridgeDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WebViewJSBridgeDemo-dummy.m"; sourceTree = "<group>"; };
+		191745D0C7F646257981B26AABDC619F /* JXTAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXTAlertView.h; path = JXTAlertManager/AlertView/JXTAlertView.h; sourceTree = "<group>"; };
 		1FF3BF82491E8FC2488EE31FFBE80135 /* Pods-WebViewJSBridgeDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WebViewJSBridgeDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		40C3F01398DB7AFBF05DEF068DF763BA /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKWebViewJavascriptBridge.h; path = WebViewJavascriptBridge/WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		26A6F380403BAEDDB67D06DB33AB99D8 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge.h; path = WebViewJavascriptBridge/WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		39402C6F9D16D5134307994E4A54BA12 /* WebViewJavascriptBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WebViewJavascriptBridge.release.xcconfig; sourceTree = "<group>"; };
+		435D5DACC86CA7922731FA28AA1E17C6 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridgeBase.h; path = WebViewJavascriptBridge/WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
 		49818EEB5C8C2FB0038A8715FAAAF29D /* libPods-WebViewJSBridgeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WebViewJSBridgeDemo.a"; path = "libPods-WebViewJSBridgeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5797DAD59B9E82906A8E1B27B3DA012C /* WebViewJavascriptBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WebViewJavascriptBridge.debug.xcconfig; sourceTree = "<group>"; };
-		60D881D5EA8C662AEE1DB878F4A68F9F /* WebViewJavascriptBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WebViewJavascriptBridge-dummy.m"; sourceTree = "<group>"; };
-		633D8C6BF693242306C5F264E812F3D2 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge_JS.m; path = WebViewJavascriptBridge/WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
-		7E6AE215F34D975479DE6E84BBF47397 /* WebViewJavascriptBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WebViewJavascriptBridge.release.xcconfig; sourceTree = "<group>"; };
-		850D49E8E4C431E0FE7865C718418B4C /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge.h; path = WebViewJavascriptBridge/WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		498C0AD8216BC6651A3F5D5C589839E2 /* WebViewJavascriptBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WebViewJavascriptBridge-dummy.m"; sourceTree = "<group>"; };
+		529D8730B3AF98CB7FAFB9C04CA94DAB /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge.m; path = WebViewJavascriptBridge/WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		6F189C8219F706B3EEBD74F1D01BBDC8 /* JXTAlertManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXTAlertManager.debug.xcconfig; sourceTree = "<group>"; };
+		74EA3292A501322CBDBC7E40CDD58831 /* WebViewJavascriptBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebViewJavascriptBridge-prefix.pch"; sourceTree = "<group>"; };
+		889F87B41C10CC1A0A7F384CB9349F45 /* JXTAlertManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXTAlertManager-prefix.pch"; sourceTree = "<group>"; };
 		8EB68B7943515E4F13CC6BE690FFD564 /* libWebViewJavascriptBridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWebViewJavascriptBridge.a; path = libWebViewJavascriptBridge.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D7FBC73F074C82E125DAEE7F8C6440C /* WebViewJavascriptBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebViewJavascriptBridge-prefix.pch"; sourceTree = "<group>"; };
+		967A97BA347493C5F88E2C8344149F9F /* JXTAlertManagerHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXTAlertManagerHeader.h; path = JXTAlertManager/JXTAlertManagerHeader.h; sourceTree = "<group>"; };
+		97CEEC9B7135A1E54B0C77E151055A2F /* JXTAlertManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXTAlertManager.release.xcconfig; sourceTree = "<group>"; };
+		9C7F9F079F7B8E0872B22A25DB8D0217 /* JXTAlertManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXTAlertManager-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AD944DD6177B1C3BA4425C419610CD31 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge.m; path = WebViewJavascriptBridge/WebViewJavascriptBridge.m; sourceTree = "<group>"; };
-		BAAA80C7332965B5D4DEAD8340DEBDF5 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridgeBase.h; path = WebViewJavascriptBridge/WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
-		BBB88B3EDE0B9059A950761B9CD9EE46 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridgeBase.m; path = WebViewJavascriptBridge/WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
-		C99D16DD1979DF8C6A2D1E9326452336 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKWebViewJavascriptBridge.m; path = WebViewJavascriptBridge/WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		A5D29BF8674A7DCEF7C0A81C2208206D /* JXTAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXTAlertView.m; path = JXTAlertManager/AlertView/JXTAlertView.m; sourceTree = "<group>"; };
+		A9D2A1C4CF4AB8F2739E6D414A34549D /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKWebViewJavascriptBridge.m; path = WebViewJavascriptBridge/WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		B0C5356C9DA01B00877F9E71F92E1003 /* libJXTAlertManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJXTAlertManager.a; path = libJXTAlertManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48B5C99DD95875D94F8EE456564406C /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKWebViewJavascriptBridge.h; path = WebViewJavascriptBridge/WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		C4FB8A87DFFE0E39EAE47DD41F95116B /* JXTAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXTAlertController.h; path = JXTAlertManager/AlertController/JXTAlertController.h; sourceTree = "<group>"; };
+		CE59DD46D590647021CF94EB32AD6F5A /* WebViewJavascriptBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WebViewJavascriptBridge.debug.xcconfig; sourceTree = "<group>"; };
+		E478B51BDFA2C1F4B4A85EE7A735B762 /* JXTAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXTAlertController.m; path = JXTAlertManager/AlertController/JXTAlertController.m; sourceTree = "<group>"; };
 		ED1FD73005F39B26CEB6161195E1B18E /* Pods-WebViewJSBridgeDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WebViewJSBridgeDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F57D69DF19569D0AAE6848F0CE8B9A3A /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge_JS.h; path = WebViewJavascriptBridge/WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		FC021DE2A105C3E6EE58D232B4E14299 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridgeBase.m; path = WebViewJavascriptBridge/WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
 		FC0AA257B60D98F36BE3742BA6D11E51 /* Pods-WebViewJSBridgeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WebViewJSBridgeDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5173CE9A37276CC40C702498DED7AFFD /* Frameworks */ = {
+		1DEA5C78E89C8EE5969F38DF8DC24EB2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -67,16 +90,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F0B2B6C8EB7263C1AA8E7E19931FBDBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A1389E21F8ECCFC9599AD7AFFA3C40E /* Products */ = {
+		0FADF5454DA0614B5A88B4F373B48C6F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				49818EEB5C8C2FB0038A8715FAAAF29D /* libPods-WebViewJSBridgeDemo.a */,
-				8EB68B7943515E4F13CC6BE690FFD564 /* libWebViewJavascriptBridge.a */,
+				259CCA599D2D943D1C98AF183FF1EA95 /* JXTAlertManager */,
+				58C7D8AEC4ED612245CD78D8800CF698 /* WebViewJavascriptBridge */,
 			);
-			name = Products;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		259CCA599D2D943D1C98AF183FF1EA95 /* JXTAlertManager */ = {
+			isa = PBXGroup;
+			children = (
+				C4FB8A87DFFE0E39EAE47DD41F95116B /* JXTAlertController.h */,
+				E478B51BDFA2C1F4B4A85EE7A735B762 /* JXTAlertController.m */,
+				967A97BA347493C5F88E2C8344149F9F /* JXTAlertManagerHeader.h */,
+				191745D0C7F646257981B26AABDC619F /* JXTAlertView.h */,
+				A5D29BF8674A7DCEF7C0A81C2208206D /* JXTAlertView.m */,
+				B44087DF6E7F08577646E067971F6139 /* Support Files */,
+			);
+			name = JXTAlertManager;
+			path = JXTAlertManager;
+			sourceTree = "<group>";
+		};
+		58C7D8AEC4ED612245CD78D8800CF698 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				26A6F380403BAEDDB67D06DB33AB99D8 /* WebViewJavascriptBridge.h */,
+				529D8730B3AF98CB7FAFB9C04CA94DAB /* WebViewJavascriptBridge.m */,
+				019D6F4C2FF1EFE33D642EF862FF2697 /* WebViewJavascriptBridge_JS.h */,
+				02B43FC950BB66873B57DFDC8154A5EB /* WebViewJavascriptBridge_JS.m */,
+				435D5DACC86CA7922731FA28AA1E17C6 /* WebViewJavascriptBridgeBase.h */,
+				FC021DE2A105C3E6EE58D232B4E14299 /* WebViewJavascriptBridgeBase.m */,
+				B48B5C99DD95875D94F8EE456564406C /* WKWebViewJavascriptBridge.h */,
+				A9D2A1C4CF4AB8F2739E6D414A34549D /* WKWebViewJavascriptBridge.m */,
+				95D63B434BD0ADBE2865D54BEB70B397 /* Support Files */,
+			);
+			name = WebViewJavascriptBridge;
+			path = WebViewJavascriptBridge;
 			sourceTree = "<group>";
 		};
 		5E66DFD12954A500A2A5632008F40CC3 /* Pods-WebViewJSBridgeDemo */ = {
@@ -92,13 +153,23 @@
 			path = "Target Support Files/Pods-WebViewJSBridgeDemo";
 			sourceTree = "<group>";
 		};
-		740C6108FA728281922DDA961D626DF1 /* Support Files */ = {
+		9516EFCF48B7402526F6DBAF94DFE270 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				60D881D5EA8C662AEE1DB878F4A68F9F /* WebViewJavascriptBridge-dummy.m */,
-				9D7FBC73F074C82E125DAEE7F8C6440C /* WebViewJavascriptBridge-prefix.pch */,
-				5797DAD59B9E82906A8E1B27B3DA012C /* WebViewJavascriptBridge.debug.xcconfig */,
-				7E6AE215F34D975479DE6E84BBF47397 /* WebViewJavascriptBridge.release.xcconfig */,
+				B0C5356C9DA01B00877F9E71F92E1003 /* libJXTAlertManager.a */,
+				49818EEB5C8C2FB0038A8715FAAAF29D /* libPods-WebViewJSBridgeDemo.a */,
+				8EB68B7943515E4F13CC6BE690FFD564 /* libWebViewJavascriptBridge.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95D63B434BD0ADBE2865D54BEB70B397 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				498C0AD8216BC6651A3F5D5C589839E2 /* WebViewJavascriptBridge-dummy.m */,
+				74EA3292A501322CBDBC7E40CDD58831 /* WebViewJavascriptBridge-prefix.pch */,
+				CE59DD46D590647021CF94EB32AD6F5A /* WebViewJavascriptBridge.debug.xcconfig */,
+				39402C6F9D16D5134307994E4A54BA12 /* WebViewJavascriptBridge.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/WebViewJavascriptBridge";
@@ -112,21 +183,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B055F7E232CEE300CD42E344973CB698 /* WebViewJavascriptBridge */ = {
+		B44087DF6E7F08577646E067971F6139 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				850D49E8E4C431E0FE7865C718418B4C /* WebViewJavascriptBridge.h */,
-				AD944DD6177B1C3BA4425C419610CD31 /* WebViewJavascriptBridge.m */,
-				F57D69DF19569D0AAE6848F0CE8B9A3A /* WebViewJavascriptBridge_JS.h */,
-				633D8C6BF693242306C5F264E812F3D2 /* WebViewJavascriptBridge_JS.m */,
-				BAAA80C7332965B5D4DEAD8340DEBDF5 /* WebViewJavascriptBridgeBase.h */,
-				BBB88B3EDE0B9059A950761B9CD9EE46 /* WebViewJavascriptBridgeBase.m */,
-				40C3F01398DB7AFBF05DEF068DF763BA /* WKWebViewJavascriptBridge.h */,
-				C99D16DD1979DF8C6A2D1E9326452336 /* WKWebViewJavascriptBridge.m */,
-				740C6108FA728281922DDA961D626DF1 /* Support Files */,
+				9C7F9F079F7B8E0872B22A25DB8D0217 /* JXTAlertManager-dummy.m */,
+				889F87B41C10CC1A0A7F384CB9349F45 /* JXTAlertManager-prefix.pch */,
+				6F189C8219F706B3EEBD74F1D01BBDC8 /* JXTAlertManager.debug.xcconfig */,
+				97CEEC9B7135A1E54B0C77E151055A2F /* JXTAlertManager.release.xcconfig */,
 			);
-			name = WebViewJavascriptBridge;
-			path = WebViewJavascriptBridge;
+			name = "Support Files";
+			path = "../Target Support Files/JXTAlertManager";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -134,8 +200,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				E04DC757317000DB1AEB39B2904F4E60 /* Pods */,
-				0A1389E21F8ECCFC9599AD7AFFA3C40E /* Products */,
+				0FADF5454DA0614B5A88B4F373B48C6F /* Pods */,
+				9516EFCF48B7402526F6DBAF94DFE270 /* Products */,
 				ACC3CD156597EFCEC87659DDCA37CD42 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -147,21 +213,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E04DC757317000DB1AEB39B2904F4E60 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B055F7E232CEE300CD42E344973CB698 /* WebViewJavascriptBridge */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4962422006114D38A533499381C0A089 /* Headers */ = {
+		1AFA97E00D1D839DA1F6CD020EBEDB29 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DE04A23D04DEDC4A2D6F21DFE16E058 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702BED59904818A968FF11E8F4D9A5CA /* JXTAlertController.h in Headers */,
+				81A5F4353C1BFECEC03A7CF612EFE35E /* JXTAlertManagerHeader.h in Headers */,
+				604A41731C7B8EE313A0EC96109BDF27 /* JXTAlertView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,18 +247,36 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		89573CA74FD56A770AD46F3D99FB9615 /* Pods-WebViewJSBridgeDemo */ = {
+		44073827E54313A928334DB3B5828AEE /* JXTAlertManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 876FF87C9D797457A9821D3A8FFA78B3 /* Build configuration list for PBXNativeTarget "Pods-WebViewJSBridgeDemo" */;
+			buildConfigurationList = A6F910C18AB00639F8B64D9609DFB6BE /* Build configuration list for PBXNativeTarget "JXTAlertManager" */;
 			buildPhases = (
-				4962422006114D38A533499381C0A089 /* Headers */,
-				C7B534743C8663246EC098F77302B9DA /* Sources */,
-				5173CE9A37276CC40C702498DED7AFFD /* Frameworks */,
+				6DE04A23D04DEDC4A2D6F21DFE16E058 /* Headers */,
+				D9B9DA1832129FE9103A750C37BAF566 /* Sources */,
+				F0B2B6C8EB7263C1AA8E7E19931FBDBB /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0C27FC7DAF47CA63D63E7D03C5567C5E /* PBXTargetDependency */,
+			);
+			name = JXTAlertManager;
+			productName = JXTAlertManager;
+			productReference = B0C5356C9DA01B00877F9E71F92E1003 /* libJXTAlertManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		89573CA74FD56A770AD46F3D99FB9615 /* Pods-WebViewJSBridgeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80DBB89333DAAEFDF6330446B1911C35 /* Build configuration list for PBXNativeTarget "Pods-WebViewJSBridgeDemo" */;
+			buildPhases = (
+				1AFA97E00D1D839DA1F6CD020EBEDB29 /* Headers */,
+				C85648903BE161FF16EA6F63F3C88A37 /* Sources */,
+				1DEA5C78E89C8EE5969F38DF8DC24EB2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				568E3B858432675B7B3C2EB1FDB7D4B2 /* PBXTargetDependency */,
+				F79C7691AC1E27709709BE34AE1D11A9 /* PBXTargetDependency */,
 			);
 			name = "Pods-WebViewJSBridgeDemo";
 			productName = "Pods-WebViewJSBridgeDemo";
@@ -232,10 +318,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 0A1389E21F8ECCFC9599AD7AFFA3C40E /* Products */;
+			productRefGroup = 9516EFCF48B7402526F6DBAF94DFE270 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				44073827E54313A928334DB3B5828AEE /* JXTAlertManager */,
 				89573CA74FD56A770AD46F3D99FB9615 /* Pods-WebViewJSBridgeDemo */,
 				D6EE36F386DBFD58A8A5B22D65791ABB /* WebViewJavascriptBridge */,
 			);
@@ -255,26 +342,90 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7B534743C8663246EC098F77302B9DA /* Sources */ = {
+		C85648903BE161FF16EA6F63F3C88A37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83C45EC2F081BE77807E743B7C3DDB77 /* Pods-WebViewJSBridgeDemo-dummy.m in Sources */,
+				0A602B0DEE8E8CAB53C00863B68EEEE2 /* Pods-WebViewJSBridgeDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B9DA1832129FE9103A750C37BAF566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE93958B4F280E47FF1EBC9E9CF31B50 /* JXTAlertController.m in Sources */,
+				E53FEEA00FA820EEED70E21155F59452 /* JXTAlertManager-dummy.m in Sources */,
+				87D77737E4ECDE79A984F589AE4223F0 /* JXTAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0C27FC7DAF47CA63D63E7D03C5567C5E /* PBXTargetDependency */ = {
+		568E3B858432675B7B3C2EB1FDB7D4B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JXTAlertManager;
+			target = 44073827E54313A928334DB3B5828AEE /* JXTAlertManager */;
+			targetProxy = 4F767FD233C46E4853E1F08818BB0222 /* PBXContainerItemProxy */;
+		};
+		F79C7691AC1E27709709BE34AE1D11A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WebViewJavascriptBridge;
 			target = D6EE36F386DBFD58A8A5B22D65791ABB /* WebViewJavascriptBridge */;
-			targetProxy = 6CB20B9DE7FB5E6634A7BED504232737 /* PBXContainerItemProxy */;
+			targetProxy = 733A22F02699E2083BCEE87A1FC95232 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		104B19979690EEC3DC364744F68A3891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F189C8219F706B3EEBD74F1D01BBDC8 /* JXTAlertManager.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JXTAlertManager/JXTAlertManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JXTAlertManager;
+				PRODUCT_NAME = JXTAlertManager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		119FB7E8A66C4E8F4AAD2B6D34F68F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 063A450BD0BF44CDF9E811AD2009F5BD /* Pods-WebViewJSBridgeDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		3464D62B7CFAF5E00F1507A127682BDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -336,9 +487,57 @@
 			};
 			name = Release;
 		};
+		3972B1D5173CAEC474643923F51E76A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97CEEC9B7135A1E54B0C77E151055A2F /* JXTAlertManager.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JXTAlertManager/JXTAlertManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JXTAlertManager;
+				PRODUCT_NAME = JXTAlertManager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46CF7E259B00F6C279A89893635F10EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0AA257B60D98F36BE3742BA6D11E51 /* Pods-WebViewJSBridgeDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		65EA9ED663896A8811C566731C94B49F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E6AE215F34D975479DE6E84BBF47397 /* WebViewJavascriptBridge.release.xcconfig */;
+			baseConfigurationReference = 39402C6F9D16D5134307994E4A54BA12 /* WebViewJavascriptBridge.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -428,7 +627,7 @@
 		};
 		CDA16756429CBAA0E38E4A30F6BA48B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5797DAD59B9E82906A8E1B27B3DA012C /* WebViewJavascriptBridge.debug.xcconfig */;
+			baseConfigurationReference = CE59DD46D590647021CF94EB32AD6F5A /* WebViewJavascriptBridge.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -449,53 +648,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		E296A026077C3DC6CC7C27218286200F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC0AA257B60D98F36BE3742BA6D11E51 /* Pods-WebViewJSBridgeDemo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F11B46975245DB7714714B2F787942D2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 063A450BD0BF44CDF9E811AD2009F5BD /* Pods-WebViewJSBridgeDemo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -518,11 +670,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		876FF87C9D797457A9821D3A8FFA78B3 /* Build configuration list for PBXNativeTarget "Pods-WebViewJSBridgeDemo" */ = {
+		80DBB89333DAAEFDF6330446B1911C35 /* Build configuration list for PBXNativeTarget "Pods-WebViewJSBridgeDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E296A026077C3DC6CC7C27218286200F /* Debug */,
-				F11B46975245DB7714714B2F787942D2 /* Release */,
+				46CF7E259B00F6C279A89893635F10EC /* Debug */,
+				119FB7E8A66C4E8F4AAD2B6D34F68F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F910C18AB00639F8B64D9609DFB6BE /* Build configuration list for PBXNativeTarget "JXTAlertManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104B19979690EEC3DC364744F68A3891 /* Debug */,
+				3972B1D5173CAEC474643923F51E76A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,4 +1,4 @@
 target 'WebViewJSBridgeDemo' do
 pod 'WebViewJavascriptBridge', '~> 6.0.3'
-
+pod 'JXTAlertManager'
 end
